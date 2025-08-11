@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\Music\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\controllers\\costumercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:controllers\\costumercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\db\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\db\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\db\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\db\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\services\\costumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:services\\costumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\db\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\db\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\db\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\db\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\db\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\db\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\dto\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\dto\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\dto\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\dto\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\dto\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\dto\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\dto\\costumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\dto\\costumerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\db\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\db\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\db\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\db\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\db\\costumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\db\\costumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\model\\dto\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:model\\dto\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|c:\\users\\asus\\music\\api\\migrations\\20250807215344_l.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5841F59-DE60-4201-B543-E892F612BCAB}|API.csproj|solutionrelative:migrations\\20250807215344_l.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAPUAAAAAAAAAAADwvw4BAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T05:17:56.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Order.cs",
+              "RelativeDocumentMoniker": "Model\\DB\\Order.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Order.cs",
+              "RelativeToolTip": "Model\\DB\\Order.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwDMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:14:39.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Controllers\\SupplierController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:32:54.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CostumerController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Controllers\\CostumerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CostumerController.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Controllers\\CostumerController.cs",
+              "RelativeToolTip": "Controllers\\CostumerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:22:53.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T16:22:10.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Category.cs",
+              "RelativeDocumentMoniker": "Model\\DB\\Category.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Category.cs",
+              "RelativeToolTip": "Model\\DB\\Category.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:43:56.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAYwEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:25:11.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AQIAADcBAAAAAAAAAAAqwLUBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:31:24.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:28:13.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAwwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T05:18:13.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CostumerService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Services\\CostumerService.cs",
+              "RelativeDocumentMoniker": "Services\\CostumerService.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Services\\CostumerService.cs",
+              "RelativeToolTip": "Services\\CostumerService.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAQwLEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:28:35.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:42:29.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:42:46.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "Model\\DTO\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:57:51.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\CategoryDTO.cs",
+              "RelativeToolTip": "Model\\DTO\\CategoryDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:58:19.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Model\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\ApplicationContext.cs",
+              "RelativeToolTip": "Model\\ApplicationContext.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAIwIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T16:06:31.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T22:03:43.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Review.cs",
+              "RelativeDocumentMoniker": "Model\\DB\\Review.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Review.cs",
+              "RelativeToolTip": "Model\\DB\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:16:00.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\DB\\Product.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Product.cs",
+              "RelativeToolTip": "Model\\DB\\Product.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAcwC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:43:40.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250807215344_l.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Migrations\\20250807215344_l.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250807215344_l.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Migrations\\20250807215344_l.cs",
+              "RelativeToolTip": "Migrations\\20250807215344_l.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T21:53:44.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DB\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Model\\DB\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DB\\OrderItem.cs",
+              "RelativeToolTip": "Model\\DB\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:15:22.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateOrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\CreateOrderDTO.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\CreateOrderDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\CreateOrderDTO.cs",
+              "RelativeToolTip": "Model\\DTO\\CreateOrderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:24:31.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\OrderItemDTO.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\OrderItemDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\OrderItemDTO.cs",
+              "RelativeToolTip": "Model\\DTO\\OrderItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:22:39.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "Services\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Services\\ReviewService.cs",
+              "RelativeToolTip": "Services\\ReviewService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:32:03.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Controllers\\ReviewController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAwGwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:31:25.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderItemController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Controllers\\OrderItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderItemController.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Controllers\\OrderItemController.cs",
+              "RelativeToolTip": "Controllers\\OrderItemController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAwFgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:26:28.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReviewDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\ReviewDTO.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\ReviewDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\ReviewDTO.cs",
+              "RelativeToolTip": "Model\\DTO\\ReviewDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:23:38.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\OrderDTO.cs",
+              "RelativeToolTip": "Model\\DTO\\OrderDTO.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAA4wDwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:22:25.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Services\\SupplierService.cs",
+              "RelativeDocumentMoniker": "Services\\SupplierService.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Services\\SupplierService.cs",
+              "RelativeToolTip": "Services\\SupplierService.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAIwHsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:30:01.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CostumerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\CostumerDTO.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\CostumerDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\CostumerDTO.cs",
+              "RelativeToolTip": "Model\\DTO\\CostumerDTO.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:20:05.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DB\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "Model\\DB\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DB\\ProductCategory.cs",
+              "RelativeToolTip": "Model\\DB\\ProductCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:25:09.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Supplier.cs",
+              "RelativeDocumentMoniker": "Model\\DB\\Supplier.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Supplier.cs",
+              "RelativeToolTip": "Model\\DB\\Supplier.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:13:43.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Costumer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Costumer.cs",
+              "RelativeDocumentMoniker": "Model\\DB\\Costumer.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DB\\Costumer.cs",
+              "RelativeToolTip": "Model\\DB\\Costumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:13:03.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SupplierDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\SupplierDTO.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\SupplierDTO.cs",
+              "ToolTip": "C:\\Users\\asus\\Music\\API\\Model\\DTO\\SupplierDTO.cs",
+              "RelativeToolTip": "Model\\DTO\\SupplierDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T14:21:10.216Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

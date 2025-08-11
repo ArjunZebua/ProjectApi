@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\asus\\Music\\API\\wwwroot\\uploads\\0d3306b1-3079-4165-9472-af48c4fb4ffe_arjun.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0d3306b1-3079-4165-9472-af48c4fb4ffe_arjun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Music\\API\\wwwroot\\uploads\\1d8a52c9-8492-4666-ad8e-272fc05adb30_K.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1d8a52c9-8492-4666-ad8e-272fc05adb30_K.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Music\\API\\wwwroot\\uploads\\aead72fc-f9d6-4809-884b-db1aed88b5b8_arjun.jpg",
+      "PackagePath": "staticwebassets\\uploads\\aead72fc-f9d6-4809-884b-db1aed88b5b8_arjun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Music\\API\\wwwroot\\uploads\\b5d41f19-5421-4855-bc98-05898bea9fbb_arjun.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b5d41f19-5421-4855-bc98-05898bea9fbb_arjun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\Music\\API\\wwwroot\\uploads\\b66942c8-9007-4346-8073-61fbedd82e75_arjun.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b66942c8-9007-4346-8073-61fbedd82e75_arjun.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
