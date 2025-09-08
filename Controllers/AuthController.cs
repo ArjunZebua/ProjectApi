@@ -25,30 +25,23 @@ namespace API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new ApiResponseDto<object>
+                {
+                    Success = false,
+                    Message = "Validasi gagal",
+                    Errors = ModelState.Values
+                        .SelectMany(v => v.Errors)
+                        .Select(e => e.ErrorMessage)
+                        .ToList()
+                });
+            }
+
             try
             {
-                if (!ModelState.IsValid)
-                {
-                    var errors = ModelState
-                        .Where(x => x.Value!.Errors.Count > 0)
-                        .SelectMany(x => x.Value!.Errors)
-                        .Select(x => x.ErrorMessage)
-                        .ToList();
-
-                    return BadRequest(new ApiResponseDto<object>
-                    {
-                        Success = false,
-                        Message = "Data tidak valid",
-                        Errors = errors
-                    });
-                }
-
                 var result = await _authService.RegisterAsync(registerDto);
-
-                if (!result.Success)
-                {
-                    return BadRequest(result);
-                }
+                if (!result.Success) return BadRequest(result);
 
                 return Ok(result);
             }
@@ -74,26 +67,19 @@ namespace API.Controllers
             {
                 if (!ModelState.IsValid)
                 {
-                    var errors = ModelState
-                        .Where(x => x.Value!.Errors.Count > 0)
-                        .SelectMany(x => x.Value!.Errors)
-                        .Select(x => x.ErrorMessage)
-                        .ToList();
-
                     return BadRequest(new ApiResponseDto<object>
                     {
                         Success = false,
-                        Message = "Data tidak valid",
-                        Errors = errors
+                        Message = "Validasi gagal",
+                        Errors = ModelState.Values
+                            .SelectMany(v => v.Errors)
+                            .Select(e => e.ErrorMessage)
+                            .ToList()
                     });
                 }
 
                 var result = await _authService.LoginAsync(loginDto);
-
-                if (!result.Success)
-                {
-                    return Unauthorized(result);
-                }
+                if (!result.Success) return Unauthorized(result);
 
                 return Ok(result);
             }
@@ -117,7 +103,7 @@ namespace API.Controllers
         {
             try
             {
-                if (string.IsNullOrEmpty(request.RefreshToken))
+                if (string.IsNullOrEmpty(request?.RefreshToken))
                 {
                     return BadRequest(new ApiResponseDto<object>
                     {
@@ -128,11 +114,7 @@ namespace API.Controllers
                 }
 
                 var result = await _authService.RefreshTokenAsync(request.RefreshToken);
-
-                if (!result.Success)
-                {
-                    return Unauthorized(result);
-                }
+                if (!result.Success) return Unauthorized(result);
 
                 return Ok(result);
             }
@@ -157,7 +139,7 @@ namespace API.Controllers
         {
             try
             {
-                if (string.IsNullOrEmpty(request.RefreshToken))
+                if (string.IsNullOrEmpty(request?.RefreshToken))
                 {
                     return BadRequest(new ApiResponseDto<object>
                     {
@@ -168,7 +150,6 @@ namespace API.Controllers
                 }
 
                 var result = await _authService.LogoutAsync(request.RefreshToken);
-
                 return Ok(result);
             }
             catch (Exception ex)

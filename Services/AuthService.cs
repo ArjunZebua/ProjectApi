@@ -22,6 +22,8 @@ namespace API.Services
             _logger = logger;
         }
 
+
+
         public async Task<ApiResponseDto<AuthResponseDto>> RegisterAsync(RegisterDto registerDto)
         {
             try

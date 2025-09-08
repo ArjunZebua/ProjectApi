@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DqK9ttwtKlAt+P4DyUOYdtyei6rOcQAcOsZy/UOU3Ic=",
+  "Hash": "izv4c21UYLGGoD8R/VwAg7N3v+zHN23lGQqOJn4i3MA=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\1d8a52c9-8492-4666-ad8e-272fc05adb30_K.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\Music\\API\\wwwroot\\uploads\\846e0000-581b-4259-becf-50f7687ddaee_arjun.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\Music\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "uploads/846e0000-581b-4259-becf-50f7687ddaee_arjun.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\846e0000-581b-4259-becf-50f7687ddaee_arjun.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\Music\\API\\wwwroot\\uploads\\aead72fc-f9d6-4809-884b-db1aed88b5b8_arjun.jpg",

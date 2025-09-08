@@ -10,7 +10,7 @@ namespace API.Model
         {
         }
 
-        // DbSets
+        // DbSets - E-commerce existing
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
@@ -20,10 +20,15 @@ namespace API.Model
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Review> Reviews { get; set; }
 
+        // DbSets - Authentication (TAMBAHAN BARU)
+        public DbSet<User> Users { get; set; } = null!;
+        public DbSet<RefreshToken> RefreshTokens { get; set; } = null!;
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
+            // ==================== E-COMMERCE RELATIONSHIPS (EXISTING) ====================
             // ProductCategory (Many-to-Many)
             modelBuilder.Entity<ProductCategory>()
                 .HasOne(pc => pc.Product)
@@ -85,7 +90,41 @@ namespace API.Model
                 .HasIndex(r => new { r.ProductId, r.CustomerId })
                 .IsUnique();
 
-            // Indexes
+            // ==================== AUTHENTICATION CONFIGURATION (BARU) ====================
+
+            // User Configuration
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Username).IsRequired().HasMaxLength(50);
+                entity.Property(e => e.Email).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.PasswordHash).IsRequired();
+                entity.Property(e => e.FirstName).HasMaxLength(50);
+                entity.Property(e => e.LastName).HasMaxLength(50);
+                entity.Property(e => e.Role).HasMaxLength(20);
+
+                // Index untuk username dan email (unique)
+                entity.HasIndex(e => e.Username).IsUnique();
+                entity.HasIndex(e => e.Email).IsUnique();
+            });
+
+            // RefreshToken Configuration
+            modelBuilder.Entity<RefreshToken>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Token).IsRequired();
+
+                // Relationship dengan User
+                entity.HasOne(e => e.User)
+                      .WithMany()
+                      .HasForeignKey(e => e.UserId)
+                      .OnDelete(DeleteBehavior.Cascade);
+
+                // Index untuk token
+                entity.HasIndex(e => e.Token);
+            });
+
+            // ==================== INDEXES (EXISTING) ====================
             modelBuilder.Entity<Product>()
                 .HasIndex(p => p.NamaProduct);
             modelBuilder.Entity<Product>()
@@ -99,7 +138,7 @@ namespace API.Model
             modelBuilder.Entity<Order>()
                 .HasIndex(o => o.OrderDate);
 
-            // Decimal precision
+            // ==================== DECIMAL PRECISION (EXISTING) ====================
             modelBuilder.Entity<Product>()
                 .Property(p => p.Harga)
                 .HasPrecision(18, 2);
@@ -119,7 +158,7 @@ namespace API.Model
                 .Property(oi => oi.TotalPrice)
                 .HasPrecision(18, 2);
 
-            // Seed data (gunakan tanggal fix, bukan DateTime.Now)
+            // ==================== SEED DATA (EXISTING) ====================
             var fixedDate = new DateTime(2025, 1, 1);
 
             modelBuilder.Entity<Supplier>().HasData(
@@ -130,6 +169,23 @@ namespace API.Model
             modelBuilder.Entity<Customer>().HasData(
                 new Customer { Id = 1, FirstName = "Alice", LastName = "Johnson", Email = "alice@example.com", Phone = "+1111111111", Address = "789 Customer St", City = "Customer City", PostalCode = "12345", CreatedAt = fixedDate, UpdatedAt = fixedDate },
                 new Customer { Id = 2, FirstName = "Bob", LastName = "Wilson", Email = "bob@example.com", Phone = "+2222222222", Address = "321 Buyer Blvd", City = "Buyer City", PostalCode = "54321", CreatedAt = fixedDate, UpdatedAt = fixedDate }
+            );
+
+            // ==================== SEED DATA - AUTHENTICATION (BARU) ====================
+            // Seed default admin user
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    Id = 1,
+                    Username = "admin",
+                    Email = "admin@example.com",
+                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin123"), // Default password: admin123
+                    FirstName = "System",
+                    LastName = "Administrator",
+                    Role = "Admin",
+                    IsActive = true,
+                    CreatedAt = fixedDate
+                }
             );
         }
     }

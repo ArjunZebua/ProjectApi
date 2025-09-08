@@ -43,10 +43,13 @@ namespace API.Model.DB
         public string? Notes { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
         // Navigation properties
-        public virtual Customer Customer { get; set; }
+        [ForeignKey("CustomerId")]
+        public virtual Customer Customer { get; set; } = null!;
+
         public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
     }
 }

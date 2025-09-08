@@ -1,13 +1,19 @@
 using API.Model;
+using API.Model.DTO;
 using API.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Any;
-using API.Model.DTO;
+using Microsoft.OpenApi.Models;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// ===== Services =====
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+
+// Database
 builder.Services.AddDbContext<ApplicationContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("MySQLconnection"),
@@ -15,18 +21,60 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
     )
 );
 
+// Custom Services
+builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<CustomerService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 
-builder.Services.AddControllers();
+// JWT Service
+builder.Services.AddScoped<JwtService>();
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
+// ===== JWT Authentication =====
+var jwtConfig = builder.Configuration.GetSection("Jwt");
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = jwtConfig["Issuer"],
+            ValidateAudience = true,
+            ValidAudience = jwtConfig["Audience"],
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfig["Secret"]!)),
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero
+        };
+    });
+
+builder.Services.AddAuthorization();
+
+// ===== Swagger Config =====
 builder.Services.AddSwaggerGen(c =>
 {
-    // CategoryDTO Schema (existing)
+    // Swagger Security JWT
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Description = "Masukkan JWT token dengan format: Bearer {token}",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
+            },
+            new List<string>()
+        }
+    });
+
+    // CategoryDTO Schema
     c.MapType<CategoryDTO>(() => new OpenApiSchema
     {
         Type = "object",
@@ -34,7 +82,7 @@ builder.Services.AddSwaggerGen(c =>
         {
             ["id"] = new OpenApiSchema { Type = "integer", Format = "int32", Example = new OpenApiInteger(0) },
             ["name"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("Electronics") },
-            ["description"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("Category for electronic products and gadgets") },
+            ["description"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("Category for electronic products") },
             ["createdAt"] = new OpenApiSchema { Type = "string", Format = "date-time", Example = new OpenApiString("2025-08-09T10:00:00.000Z") },
             ["updatedAt"] = new OpenApiSchema { Type = "string", Format = "date-time", Example = new OpenApiString("2025-08-09T10:00:00.000Z") },
             ["productCount"] = new OpenApiSchema { Type = "integer", Format = "int32", Example = new OpenApiInteger(0) },
@@ -44,7 +92,7 @@ builder.Services.AddSwaggerGen(c =>
         {
             ["id"] = new OpenApiInteger(0),
             ["name"] = new OpenApiString("Electronics"),
-            ["description"] = new OpenApiString("Category for electronic products and gadgets"),
+            ["description"] = new OpenApiString("Category for electronic products"),
             ["createdAt"] = new OpenApiString("2025-08-09T10:00:00.000Z"),
             ["updatedAt"] = new OpenApiString("2025-08-09T10:00:00.000Z"),
             ["productCount"] = new OpenApiInteger(0),
@@ -52,7 +100,7 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 
-    // CustomerDTO Schema - TAMBAHKAN INI
+    // CustomerDTO Schema
     c.MapType<CustomerDTO>(() => new OpenApiSchema
     {
         Type = "object",
@@ -93,7 +141,7 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// ===== Middleware =====
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -101,6 +149,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// JWT Middleware
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 app.Run();
